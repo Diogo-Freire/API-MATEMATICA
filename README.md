@@ -15,20 +15,21 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Diogo-Freire/API-MATEMATICA.git
-   cd API-MATEMATICA```
+   cd API-MATEMATICA
+   ```
 
 2. Crie um ambiente virtual(opcional):
    ```bash
    python -m venv venv
-   venv\Scripts\activate```
+   venv\Scripts\activate
    
 3. Instale o arquivo de dependências:
    ```bash
-   pip install -r ==requirements.txt==```
+   pip install -r ==requirements.txt==
 
 4. Rode a API
    ```bash
-   python app.py```
+   python app.py
 
 5. Abra a API no navegador
    👉 *http://127.0.0.1:5000*
@@ -42,7 +43,7 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
 ## 🕹️ Exemplos de uso 🕹️
  ```bash
    GET /soma?a=2&b=3
-   Resposta: { "resultado": 5 }```
+   Resposta: { "resultado": 5 }`
 
 ```bash
    GET /subtracao?a=10&b=3
