@@ -35,12 +35,13 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
    ```
 
 5. Abra a API no navegador
-   👉 *http://127.0.0.1:5000*
+   
+    👉 *http://127.0.0.1:5000*
 
-6. Documentação Swagger disponível em:
+7. Documentação Swagger disponível em:
    A documentação interativa pode ser acessada em /apidocs após rodar o projeto
    
-  👉 *http://127.0.0.1:5000/apidocs*
+   👉 *http://127.0.0.1:5000/apidocs*
 
 
 ## 🕹️ Exemplos de uso 🕹️
