@@ -64,7 +64,7 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
    Resposta: { "resultado": 2 }
 ```
 
-##🧪Testes automatizados
+## 🧪Testes automatizados
 Para rodar os testes use:
 
 ```bash
@@ -89,8 +89,29 @@ Exemplo de teste implementado:
     Usuario[👤 Usuário] -->|Requisições HTTP| API[📦 API de Operações Matemáticas]
     API -->|Documentação| SwaggerUI[📖 Swagger UI]
  ```
+ ☑️ **Nível Contêiner**
+ ```mermaid
+     graph TD
+       subgraph API de Operações Matemáticas
+           Flask[⚙️ Flask App]
+           Swagger[📖 Swagger UI]
+           PyTest[🧪 PyTest]
+       end
+   
+       Usuario[👤 Usuário] --> Flask
+       Flask --> Swagger
+       PyTest --> Flask
 
+ ```
 
+## 📌 Objetivo
+
+Este projeto foi desenvolvido para estudo e demonstração prática de:
+
+- Criação de **APIs REST**
+- Documentação com **Swagger**
+- Testes automatizados com **PyTest**
+- Representação arquitetural com **Modelo C4**
 
 
 
