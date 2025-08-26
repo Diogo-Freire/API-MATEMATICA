@@ -15,20 +15,20 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Diogo-Freire/API-MATEMATICA.git
-   cd API-MATEMATICA
+   cd API-MATEMATICA```
 
 2. Crie um ambiente virtual(opcional):
    ```bash
    python -m venv venv
-   venv\Scripts\activate
+   venv\Scripts\activate```
    
 3. Instale o arquivo de dependências:
    ```bash
-   pip install -r ==requirements.txt==
+   pip install -r ==requirements.txt==```
 
 4. Rode a API
    ```bash
-   python app.py
+   python app.py```
 
 5. Abra a API no navegador
    👉 *http://127.0.0.1:5000*
@@ -41,19 +41,19 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
 ## 🕹️ Exemplos de uso 🕹️
  ```bash
    GET /soma?a=2&b=3
-   Resposta: { "resultado": 5 }
+   Resposta: { "resultado": 5 }```
 
 ```bash
    GET /subtracao?a=10&b=3
-   Resposta: { "resultado": 7 }
+   Resposta: { "resultado": 7 }```
 
 ```bash
    GET /multiplicacao?a=5&b=5
-   Resposta: { "resultado": 25 }
+   Resposta: { "resultado": 25 }```
 
 ```bash
    GET /divisao?a=4&b=2
-   Resposta: { "resultado": 2 }
+   Resposta: { "resultado": 2 }```
 
 ##🧪Testes automatizados
 Para rodar os testes use:
@@ -61,7 +61,7 @@ Para rodar os testes use:
 ```bash
    def test_soma(client):
        response = client.get("/soma?a=2&b=3")
-       assert response.json["resultado"] == 5
+       assert response.json["resultado"] == 5```
 
 Exemplo de teste implementado:
 
