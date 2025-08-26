@@ -69,9 +69,7 @@ documentada com **Swagger** e validada com **testes automatizados** usando PyTes
 Para rodar os testes use:
 
 ```bash
-   def test_soma(client):
-       response = client.get("/soma?a=2&b=3")
-       assert response.json["resultado"] == 5
+   pytest
 ```
 
 Exemplo de teste implementado:
